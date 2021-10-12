@@ -7,8 +7,8 @@ import lombok.Data;
 @Builder
 
 public class Department {
-    private String name;
-    private long x;
-    private long y;
-    private long radius;
+    private String Name;
+    private double X;
+    private double Y;
+    private double Radius;
 }

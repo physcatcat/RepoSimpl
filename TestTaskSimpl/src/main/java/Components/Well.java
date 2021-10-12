@@ -7,8 +7,8 @@ import lombok.Data;
 @Builder
 
 public class Well {
-    private long id;
-    private String name;
-    private double x;
-    private double y;
+    private long Id;
+    private String Name;
+    private double X;
+    private double Y;
 }

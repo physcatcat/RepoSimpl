@@ -7,7 +7,7 @@ import lombok.Data;
 @Builder
 
 public class WellParameter {
-    private String name;
-    private long wellId;
-    private long value;
+    private long WellId;
+    private String ParameterName;
+    private double Value;
 }
