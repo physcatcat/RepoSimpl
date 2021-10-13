@@ -28,11 +28,8 @@ public class TestSimplApp {
                 .service(service).build();
 
         log.info(controller.getUniqueWellParametersNames().toString());
-    //    log.info(controller.getWellsWithParametersById(10, 30).toString());
-    //    log.info(controller.getWellsWithDepartments().toString());
+        log.info(controller.getWellsWithParametersById(10, 30).toString());
+        log.info(controller.getDepartmentsWithWells().toString());
 
-    //    log.info(repository.getAllDepartments().toString()); // для проверки корректного чтения из файла
-    //    log.info(repository.getAllWells().toString()); // для проверки корректного чтения из файла
-    //    log.info(repository.getAllWellParameters().toString()); // для проверки корректного чтения из файла
     }
 }

@@ -8,7 +8,8 @@ import java.util.List;
 @Data
 @Builder
 
-public class WellWithDepartments {
+//для 3 задания, содержит месторождения и входящие в него скважины
+public class WellsInDepartment {
     private List<Well> wells;
     private Department department;
 }
